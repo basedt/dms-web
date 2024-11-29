@@ -1,0 +1,38 @@
+{
+  "nav.docs": {
+    "en": "Docs",
+    "zh": "文档"
+  },
+  "nav.docs.introduction": {
+    "en": "Introduction",
+    "zh": "简介"
+  },
+  "nav.docs.start": {
+    "en": "Getting started",
+    "zh": "开始"
+  },
+  "nav.docs.guide": {
+    "en": "Guide",
+    "zh": "操作指南"
+  },
+  "nav.docs.start.quickStart": {
+    "en": "Quick Start",
+    "zh": "快速开始"
+  },
+  "nav.docs.guide.workspace": {
+    "en": "Workspace",
+    "zh": "工作空间"
+  },
+  "nav.docs.guide.datasource": {
+    "en": "Datasource",
+    "zh": "数据源管理"
+  },
+  "nav.docs.guide.sqlQuery": {
+    "en": "Sql Query",
+    "zh": "SQL查询"
+  },
+  "nav.docs.contacts": {
+    "en": "Contacts",
+    "zh": "联系我们"
+  }
+}
