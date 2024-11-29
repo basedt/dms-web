@@ -3,5 +3,15 @@
     "type": "file",
     "name": "workspace",
     "label": "nav.docs.guide.workspace"
+  },
+  {
+    "type": "file",
+    "name": "datasource",
+    "label": "nav.docs.guide.datasource"
+  },
+  {
+    "type": "file",
+    "name": "sqlQuery",
+    "label": "nav.docs.guide.sqlQuery"
   }
 ]

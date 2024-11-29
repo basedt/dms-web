@@ -23,6 +23,14 @@
     "en": "Workspace",
     "zh": "工作空间"
   },
+  "nav.docs.guide.datasource": {
+    "en": "Datasource",
+    "zh": "数据源管理"
+  },
+  "nav.docs.guide.sqlQuery": {
+    "en": "Sql Query",
+    "zh": "SQL查询"
+  },
   "nav.docs.contacts": {
     "en": "Contacts",
     "zh": "联系我们"
