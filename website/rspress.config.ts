@@ -3,7 +3,6 @@ import {defineConfig} from 'rspress/config';
 
 export default defineConfig({
     root: path.join(__dirname, 'docs'),
-    base: '/dms-web/',
     title: 'Basedt DMS',
     icon: '/logo.svg',
     logo: {
