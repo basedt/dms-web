@@ -53,7 +53,7 @@ export default defineConfig({
     },
     multiVersion: {
         default: "v1.0.0",
-        versions: ['v1.0.0']
+        versions: ['v1.0.0','dev']
     },
     search: {
         versioned: true,
