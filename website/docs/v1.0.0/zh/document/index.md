@@ -1,5 +1,5 @@
 # 简介
-Basedt DMS是一个免费、简单、易用的数据管理系统，支持在浏览器中通过Web SQL 编辑器对数据库进行操作和管理。目前已适配支持Mysql、Oracle、PostgreSQL、Apache Doris等数据库。
+Base DMS是一个免费、简单、易用的数据管理系统，支持在浏览器中通过Web SQL 编辑器对数据库进行操作和管理。目前已适配支持Mysql、Oracle、PostgreSQL、Apache Doris等数据库。
 
 ![sql-ide.png](./images/sql-ide.png)
 ## 功能特性
