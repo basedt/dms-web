@@ -4,7 +4,7 @@ import {defineConfig} from 'rspress/config';
 export default defineConfig({
     root: path.join(__dirname, 'docs'),
     // base: '/dms-web/',
-    title: 'Basedt DMS',
+    title: 'Base DMS',
     icon: '/logo.svg',
     logo: {
         light: '/logo.svg',
@@ -16,14 +16,14 @@ export default defineConfig({
         {
             lang: 'en',
             label: 'English',
-            title: 'Basedt DMS',
-            description: 'Basedt Data Managerment System',
+            title: 'Base DMS',
+            description: 'Base Data Managerment System',
         },
         {
             lang: 'zh',
             label: '简体中文',
-            title: 'Basedt DMS',
-            description: 'Basedt数据管理系统',
+            title: 'Base DMS',
+            description: 'Base数据管理系统',
         }
     ],
     themeConfig: {

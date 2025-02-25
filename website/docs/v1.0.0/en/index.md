@@ -2,7 +2,7 @@
 pageType: home
 
 hero:
-  name: Basedt DMS
+  name: Base DMS
   text: Universal Data Management System
   tagline: Free, Easy-to-Use Web SQL Editor<br/><br/>Supports MySQL, Oracle, Doris, etc.
   actions:

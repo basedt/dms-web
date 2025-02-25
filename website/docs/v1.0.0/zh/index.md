@@ -2,7 +2,7 @@
 pageType: home
 
 hero:
-  name: Basedt DMS
+  name: Base DMS
   text: 通用数据管理系统
   tagline: 免费、易用的Web SQL 编辑器 <br/><br/>支持Mysql、Oracle、Doris等
   actions:
