@@ -36,11 +36,25 @@ services:
       - 6379:6379
     networks:
       - dms
+  minio:
+    image: bitnami/minio:2024
+    container_name: dms_minio
+    environment:
+      - MINIO_ROOT_USER=admin
+      - MINIO_ROOT_PASSWORD=password
+      - MINIO_DEFAULT_BUCKETS=dms
+    ports:
+      - 9000:9000
+      - 9001:9001
+    networks:
+      - dms
   dms_backend:
-    image: registry.cn-hangzhou.aliyuncs.com/basedt/dms-backend:v1.0.0
+    image: basedt/dms-backend
     container_name: dms-backend
     depends_on:
       redis:
+        condition: service_started
+      minio:
         condition: service_started
       db:
         condition: service_healthy
@@ -52,7 +66,7 @@ services:
     networks:
       - dms
   dms-frontend:
-    image: registry.cn-hangzhou.aliyuncs.com/basedt/dms-frontend:v1.0.0
+    image: basedt/dms-frontend
     container_name: dms-frontend
     depends_on:
       dms_backend:
