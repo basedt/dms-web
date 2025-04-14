@@ -15,4 +15,8 @@ Base DMS is an open-source, free, and AI-powered intelligent data management sys
 
 ## Try DMS
 
-[Get Started](./start/quickStart.md) Quickly to Learn How to Use DMS
+[Get Started](https://basedt.github.io/dms-web/document/start/quickStart.html) Quickly to Learn How to Use DMS
+
+## WeChat
+
+![qrcode_wechat.jpg](https://basedt.github.io/dms-web/static/image/qrcode_wechat.cfe6b758.jpg)
