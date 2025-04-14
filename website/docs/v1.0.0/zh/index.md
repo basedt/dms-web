@@ -3,8 +3,8 @@ pageType: home
 
 hero:
   name: Base DMS
-  text: 通用数据管理系统
-  tagline: 免费、易用的Web SQL 编辑器 <br/><br/>支持Mysql、Oracle、Doris等
+  text: 智能的AI数据管理系统
+  tagline: 开源、免费、支持Mysql、Oracle等多种数据库
   actions:
     - theme: brand
       text: 快速开始
