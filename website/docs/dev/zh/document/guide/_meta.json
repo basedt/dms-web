@@ -1,6 +1,11 @@
 [
   {
     "type": "file",
+    "name": "llmConfig",
+    "label": "nav.docs.guide.llmConfig"
+  },
+  {
+    "type": "file",
     "name": "workspace",
     "label": "nav.docs.guide.workspace"
   },
@@ -13,5 +18,15 @@
     "type": "file",
     "name": "sqlQuery",
     "label": "nav.docs.guide.sqlQuery"
+  },
+  {
+    "type": "file",
+    "name": "importExport",
+    "label": "nav.docs.guide.importExport"
+  },
+  {
+    "type": "file",
+    "name": "audit",
+    "label": "nav.docs.guide.audit"
   }
 ]

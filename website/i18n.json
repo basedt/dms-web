@@ -31,6 +31,18 @@
     "en": "Sql Query",
     "zh": "SQL查询"
   },
+  "nav.docs.guide.llmConfig": {
+    "en": "LLM Config",
+    "zh": "模型配置"
+  },
+  "nav.docs.guide.importExport": {
+    "en": "Import/Export",
+    "zh": "导入/导出"
+  },
+  "nav.docs.guide.audit": {
+    "en": "SQL Audit",
+    "zh": "SQL审计"
+  },
   "nav.docs.contacts": {
     "en": "Contacts",
     "zh": "联系我们"

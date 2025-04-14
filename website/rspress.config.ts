@@ -3,7 +3,7 @@ import { defineConfig } from "rspress/config";
 
 export default defineConfig({
   root: path.join(__dirname, "docs"),
-  base: '/dms-web/',
+  base: "/dms-web/",
   title: "Base DMS",
   icon: "/logo.svg",
   logo: {
@@ -27,6 +27,7 @@ export default defineConfig({
     },
   ],
   themeConfig: {
+    darkMode: false,
     socialLinks: [
       {
         icon: "github",

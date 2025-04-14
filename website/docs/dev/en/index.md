@@ -3,8 +3,8 @@ pageType: home
 
 hero:
   name: Base DMS
-  text: Universal Data Management System
-  tagline: Free, Easy-to-Use Web SQL Editor<br/><br/>Supports MySQL, Oracle, Doris, etc.
+  text: AI-Powered Intelligent Data Management System
+  tagline: Open-source, free, and supports multiple databases such as MySQL, Oracle, etc.
   actions:
     - theme: brand
       text: Quick Start
