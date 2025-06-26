@@ -85,4 +85,4 @@ docker compose -p dms up -d
 ```
 3. Open your browser and visit http://localhost to access dms. After successful access, you can register an account or log in with admin account (admin/123456).
 
-![login.png](./images/login.png)
+![login.png](/images/start/login.png)

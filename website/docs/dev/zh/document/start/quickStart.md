@@ -86,4 +86,4 @@ docker compose -p dms up -d
 ```
 3. 打开浏览器进入 http://localhost 访问系统。成功访问后可自行注册账号或者使用管理员账号密码(admin/123456)登录
 
-![login.png](./images/login.png)
+![login.png](/images/start/login.png)

@@ -10,4 +10,4 @@ https://github.com/basedt/dms/discussions
 
 ## WeChat
 
-![qrcode_wechat.jpg](./images/qrcode_wechat.jpg)
+![qrcode_wechat.jpg](/images/contacts/qrcode_wechat.jpg)
