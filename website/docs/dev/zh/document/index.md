@@ -2,7 +2,7 @@
 
 Base DMS 是一个开源、免费、智能的 AI 数据管理系统，提供 Web SQL 编辑器对数据库对象进行查询和管理，支持利用 AI 大模型辅助开发。目前已适配 Mysql、Oracle、PostgreSQL、Apache Doris 等多种数据库。
 
-![sql-ide.png](./images/sql-ide.png)
+![sql-ide.png](/images/sql-ide.png)
 
 ## 功能特性
 
