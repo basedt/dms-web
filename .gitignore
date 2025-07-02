@@ -131,3 +131,4 @@ dist
 .pnp.*
 /docker/db/data/
 /.idea/
+!/.idea/icon.svg

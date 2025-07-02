@@ -10,7 +10,7 @@ export default defineConfig({
     light: "/logo.svg",
     dark: "/logo.svg",
   },
-  logoText: "DMS",
+  logoText: "Base DMS",
   lang: "zh",
   locales: [
     {
@@ -54,7 +54,7 @@ export default defineConfig({
   },
   multiVersion: {
     default: "dev",
-    versions: ["v1.0.0", "dev"],
+    versions: [ "dev"],
   },
   search: {
     versioned: true,

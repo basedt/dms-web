@@ -6,4 +6,4 @@
 
 ## 创建工作空间
 
-![workspace_create.png](./images/workspace_create.png)
+![workspace_create.png](/dev/guide/images/workspace_create.png)
