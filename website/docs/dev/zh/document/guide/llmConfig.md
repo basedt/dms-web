@@ -11,4 +11,4 @@
 
 在对应大模型官网申请到 API Key 后，在模型设置中配置即可，菜单路径：系统管理->系统设置->模型设置
 
-![llm_config.png](./images/llm_config.png)
+![llm_config.png](/dev/guide/images/llm_config.png)

@@ -11,4 +11,4 @@
 
 After obtaining the API Key from the LLM Official website, you can configure it in the LLM Settings. The menu path is: System -> Settings -> LLM Settings.
 
-![llm_config.png](./images/llm_config.png)
+![llm_config.png](/dev/guide/images/llm_config.png)

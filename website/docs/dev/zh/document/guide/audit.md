@@ -2,4 +2,4 @@
 
 ## 运行历史
 
-![sql_his.png](./images/sql_his.png)
+![sql_his.png](/dev/guide/images/sql_his.png)
