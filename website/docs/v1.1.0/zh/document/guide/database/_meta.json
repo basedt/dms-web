@@ -1,0 +1,32 @@
+[
+  {
+    "type": "file",
+    "name": "table",
+    "label": "nav.docs.guide.database.table"
+  },
+  {
+    "type": "file",
+    "name": "view",
+    "label": "nav.docs.guide.database.view"
+  },
+  {
+    "type": "file",
+    "name": "materializedView",
+    "label": "nav.docs.guide.database.materializedView"
+  },
+  {
+    "type": "file",
+    "name": "function",
+    "label": "nav.docs.guide.database.function"
+  },
+  {
+    "type": "file",
+    "name": "sequence",
+    "label": "nav.docs.guide.database.sequence"
+  },
+  {
+    "type": "file",
+    "name": "foreignTable",
+    "label": "nav.docs.guide.database.foreignTable"
+  }
+]

@@ -1,0 +1,60 @@
+name: Github action page
+run-name: Deploy page by @${{ github.actor }}
+
+on:
+  push:
+    branches: [ 'main','feature/**','releases/**' ]
+
+  pull_request:
+    branches: [ 'main','feature/**','releases/**' ]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1 # Not needed if lastUpdated is not enabled
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v3 # pnpm is optional but recommended, you can also use npm / yarn
+        with:
+          version: 6
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: |
+          cd website
+          pnpm install
+      - name: Build with Rspress
+        run: |
+          cd website
+          pnpm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/doc_build
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

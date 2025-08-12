@@ -1,0 +1,78 @@
+{
+  "nav.docs": {
+    "en": "Docs",
+    "zh": "文档"
+  },
+  "nav.docs.introduction": {
+    "en": "Introduction",
+    "zh": "简介"
+  },
+  "nav.docs.start": {
+    "en": "Getting started",
+    "zh": "开始"
+  },
+  "nav.docs.guide": {
+    "en": "Guide",
+    "zh": "操作指南"
+  },
+  "nav.docs.start.quickStart": {
+    "en": "Quick Start",
+    "zh": "快速开始"
+  },
+  "nav.docs.guide.workspace": {
+    "en": "Workspace",
+    "zh": "工作空间"
+  },
+  "nav.docs.guide.datasource": {
+    "en": "Datasource",
+    "zh": "数据源管理"
+  },
+  "nav.docs.guide.database": {
+    "en": "Database Management",
+    "zh": "数据库管理"
+  },
+  "nav.docs.guide.database.table": {
+    "en": "Table",
+    "zh": "表"
+  },
+  "nav.docs.guide.database.view": {
+    "en": "View",
+    "zh": "视图"
+  },
+  "nav.docs.guide.database.materializedView": {
+    "en": "Materialized View",
+    "zh": "物化视图"
+  },
+  "nav.docs.guide.database.function": {
+    "en": "Function",
+    "zh": "函数"
+  },
+  "nav.docs.guide.database.sequence": {
+    "en": "Sequence",
+    "zh": "序列"
+  },
+  "nav.docs.guide.database.foreignTable": {
+    "en": "Foreign Table",
+    "zh": "外部表"
+  },
+  "nav.docs.guide.sqlQuery": {
+    "en": "Sql Query",
+    "zh": "SQL查询"
+  },
+  "nav.docs.guide.llmConfig": {
+    "en": "LLM Config",
+    "zh": "模型配置"
+  },
+  "nav.docs.guide.importExport": {
+    "en": "Import/Export",
+    "zh": "导入/导出"
+  },
+  "nav.docs.guide.audit": {
+    "en": "SQL Audit",
+    "zh": "SQL审计"
+  },
+  "nav.docs.contacts": {
+    "en": "Contacts",
+    "zh": "联系我们"
+  }
+}

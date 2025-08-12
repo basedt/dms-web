@@ -1,0 +1,38 @@
+[
+  {
+    "type": "file",
+    "name": "llmConfig",
+    "label": "nav.docs.guide.llmConfig"
+  },
+  {
+    "type": "file",
+    "name": "workspace",
+    "label": "nav.docs.guide.workspace"
+  },
+  {
+    "type": "file",
+    "name": "datasource",
+    "label": "nav.docs.guide.datasource"
+  },
+  {
+    "type": "dir",
+    "name": "database",
+    "label": "nav.docs.guide.database",
+    "collapsed": true
+  },
+  {
+    "type": "file",
+    "name": "sqlQuery",
+    "label": "nav.docs.guide.sqlQuery"
+  },
+  {
+    "type": "file",
+    "name": "importExport",
+    "label": "nav.docs.guide.importExport"
+  },
+  {
+    "type": "file",
+    "name": "audit",
+    "label": "nav.docs.guide.audit"
+  }
+]
